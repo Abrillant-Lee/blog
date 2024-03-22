@@ -1,5 +1,5 @@
 <h2 align="center">
-愧怍的个人博客
+nan的个人博客
 </h2><br>
 
 <pre align="center">
@@ -34,7 +34,7 @@
 - 🌈 **资源导航** - 收集并分享有用、有意思的资源
 - 📦 **项目展示** - 展示你的项目，可用作于作品集
 
-我的修改：[Docusaurus 主题魔改](https://kuizuo.cn/docs/docusaurus-guides)
+我的修改：[Docusaurus 主题魔改](https://abrillant-lee.github.io/docs/docusaurus-guides)
 
 ## 📊 Catalogue
 
