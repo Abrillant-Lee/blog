@@ -9,13 +9,13 @@ jobs:
      steps:
       - uses: actions/checkout@v3
       - name: install node
-        uses: actions/setup-node@v4.0.1
+        uses: pnpm/action-setup@v3.0.0
         with:
-          node-version: "21"
+          version: 8.15.4
       - name: install deps
-        run: npm install
+        run: pnpm install
       - name: build app
-        run: npm run build
+        run: pnpm start
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
