@@ -15,7 +15,7 @@ jobs:
       - name: install deps
         run: pnpm install
       - name: build app
-        run: pnpm start
+        run: pnpm build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
