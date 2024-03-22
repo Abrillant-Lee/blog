@@ -9,9 +9,15 @@ import Tooltip from '@site/src/components/Tooltip'
 import { Tags, TagList, type TagType, type Project, type Tag } from '@site/data/projects'
 import { sortBy } from '@site/src/utils/jsUtils'
 
+// const TagComp = React.forwardRef<HTMLLIElement, Tag>(({ label, color, description }, ref) => (
+//   <li ref={ref} className={styles.tag} title={description}>
+//     <span className={styles.textLabel}>{label.toLowerCase()}</span>
+//     <span className={styles.colorLabel} style={{ backgroundColor: color }} />
+//   </li>
+// ))
 const TagComp = React.forwardRef<HTMLLIElement, Tag>(({ label, color, description }, ref) => (
   <li ref={ref} className={styles.tag} title={description}>
-    <span className={styles.textLabel}>{label.toLowerCase()}</span>
+    <span className={styles.textLabel}>{label ? label.toLowerCase() : ''}</span>
     <span className={styles.colorLabel} style={{ backgroundColor: color }} />
   </li>
 ))

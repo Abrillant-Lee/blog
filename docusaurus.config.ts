@@ -9,11 +9,12 @@ const beian1 = '闽公网安备35021102000847号'
 
 const config: Config = {
   title: 'nan',
-  url: 'https://Abrillant-Lee',
+  url: 'https://abrillantlee.top',
   baseUrl: '/',
   favicon: 'img/nan.ico',
   organizationName: 'Abrillant-Lee',
   projectName: 'blog',
+  onBrokenLinks: 'ignore',
   customFields: {
     bio: '道阻且长，行则将至',
     description:
@@ -233,7 +234,7 @@ const config: Config = {
         feedOptions: {
           type: 'all',
           title: 'nan',
-          copyright: `Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
+          copyright: `Copyright © ${new Date().getFullYear()} nan Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
         },
       },
     ],
@@ -261,5 +262,7 @@ const config: Config = {
     },
   },
 }
+
+
 
 export default config
