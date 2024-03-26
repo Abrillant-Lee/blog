@@ -20,12 +20,12 @@ type SocialValue = {
 const social: Social = {
   github: 'https://github.com/Abrillant-Lee',
   twitter: 'https://twitter.com/kuizuo',
-  juejin: 'https://juejin.cn/user/1565318510545901',
-  qq: 'https://img.kuizuo.cn/qq.png',
-  wx: 'https://img.kuizuo.cn/wechat.png',
-  // zhihu: 'https://www.zhihu.com/people/kuizuo',
+  juejin: 'https://juejin.cn/user/4224772206243847',
+  qq: '2973204471',
+  wx: '13140089756',
+  zhihu: 'https://www.zhihu.com/people/nan-shen-82-37',
   // cloudmusic: 'https://music.163.com/#/user/home?id=1333010742',
-  email: 'haonan.brillant@gmail.com',
+  email: 'https://mail.google.com/mail/u/0/#inbox',
   discord: 'https://discord.gg/M8cVcjDxkz',
 }
 
