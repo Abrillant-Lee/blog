@@ -41,11 +41,11 @@
   },
   "link.item.label.GitHub": {
     "message": "GitHub",
-    "description": "The label of footer link with label=GitHub linking to https://github.com/kuizuo"
+    "description": "The label of footer link with label=GitHub linking to https://github.com/Abrillant-Lee"
   },
   "link.item.label.掘金": {
     "message": "Juejin",
-    "description": "The label of footer link with label=掘金 linking to https://juejin.cn/user/1565318510545901"
+    "description": "The label of footer link with label=掘金 linking to https://juejin.cn/user/4224772206243847"
   },
   "link.item.label.Discord": {
     "message": "Discord",
