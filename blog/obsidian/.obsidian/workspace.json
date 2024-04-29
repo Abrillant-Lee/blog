@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NuShell.md",
+                "file": "Poweshell.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NuShell.md",
+                "file": "Poweshell.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NuShell.md"
+                "file": "Poweshell.md"
               }
             }
           },
@@ -143,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NuShell.md",
+                "file": "Poweshell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,14 +174,14 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "04e5afd84578bed6",
+  "active": "7a28f15527a7e4db",
   "lastOpenFiles": [
+    "NuShell.md",
     "专业名词记录.md",
     "意志会带我杀出重围.md",
     "星闪（NearLink）.md",
-    "华为云HECS.md",
-    "NuShell.md",
     "香橙派.md",
+    "华为云HECS.md",
     "Poweshell.md",
     "昇思MindSpore.md",
     "FFmpeg.md",
