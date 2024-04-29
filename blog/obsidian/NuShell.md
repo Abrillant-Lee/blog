@@ -1,11 +1,13 @@
 ---
 slug: Nushell
-title: Nushell 
+title: Nushell
 date: 2024-04-21
 authors: nan
-tags: [Nushell]
-keywords: [Nushell]
-description: Nushell 
+tags:
+  - Nushell
+keywords:
+  - Nushell
+description: Nushell
 ---
 官方中午文档：[介绍 | Nushell](https://www.nushell.sh/zh-CN/book/)
 
