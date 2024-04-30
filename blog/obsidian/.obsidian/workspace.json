@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Poweshell.md",
+                "file": "香橙派.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Poweshell.md",
+                "file": "香橙派.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Poweshell.md"
+                "file": "香橙派.md"
               }
             }
           },
@@ -143,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Poweshell.md",
+                "file": "香橙派.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,9 +153,17 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "2491be6a26fbe090",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -176,13 +184,13 @@
   },
   "active": "7a28f15527a7e4db",
   "lastOpenFiles": [
+    "华为云HECS.md",
+    "Poweshell.md",
     "NuShell.md",
     "专业名词记录.md",
     "意志会带我杀出重围.md",
     "星闪（NearLink）.md",
     "香橙派.md",
-    "华为云HECS.md",
-    "Poweshell.md",
     "昇思MindSpore.md",
     "FFmpeg.md",
     "IoT/黑色素瘤.md",
