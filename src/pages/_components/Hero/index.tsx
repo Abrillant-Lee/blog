@@ -107,7 +107,7 @@ export default function Hero() {
         <Name />
         <motion.p custom={2} initial="hidden" animate="visible" variants={variants}>
           <Translate id="homepage.hero.text">
-            {`Keep Moving:保持前进，主动学习新知识，让头脑始终保持在开放和前沿的状态。`}
+            {`Keep Moving：保持前进，主动学习新知识，让头脑始终保持在开放和前沿的状态。`}
           </Translate>
         </motion.p>
         <motion.div custom={3} initial="hidden" animate="visible" variants={variants}>

@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "专业名词记录.md",
+                "file": "意志会带我杀出重围.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "专业名词记录.md",
+                "file": "意志会带我杀出重围.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "专业名词记录.md"
+                "file": "意志会带我杀出重围.md"
               }
             }
           },
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "专业名词记录.md",
+                "file": "意志会带我杀出重围.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,9 +174,9 @@
   },
   "active": "95c8ead7c8a7e6fb",
   "lastOpenFiles": [
+    "专业名词记录.md",
     "星闪（NearLink）.md",
     "意志会带我杀出重围.md",
-    "专业名词记录.md",
     "华为云HECS服务器.md",
     "Poweshell.md",
     "BlockChain.md",
