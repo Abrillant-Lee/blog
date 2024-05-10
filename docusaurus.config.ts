@@ -4,8 +4,8 @@ import { themes } from 'prism-react-renderer'
 import { GiscusConfig } from './src/components/Comment'
 import social from './data/social'
 
-const beian = '闽ICP备2020017848号-2'
-const beian1 = '闽公网安备35021102000847号'
+const beian = '豫ICP备2024067790号-1'
+// const beian1 = '豫ICP备2024067790号'
 
 const config: Config = {
   title: 'nan',
