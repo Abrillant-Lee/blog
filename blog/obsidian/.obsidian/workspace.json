@@ -24,12 +24,10 @@
             "id": "95c8ead7c8a7e6fb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "意志会带我杀出重围.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "blog/obsidian/专业名词记录.md",
+                "staged": false
               }
             }
           }
@@ -100,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "意志会带我杀出重围.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -122,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "意志会带我杀出重围.md"
-              }
+              "state": {}
             }
           },
           {
@@ -133,9 +128,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "意志会带我杀出重围.md",
-                "collapseAll": false,
-                "extraContext": false,
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -174,19 +168,19 @@
   },
   "active": "95c8ead7c8a7e6fb",
   "lastOpenFiles": [
-    "专业名词记录.md",
-    "星闪（NearLink）.md",
-    "意志会带我杀出重围.md",
     "华为云HECS服务器.md",
-    "Poweshell.md",
-    "BlockChain.md",
+    "Taurus & Pegasus AI 计算机视觉基础开发套件.md",
+    "意志会带我杀出重围.md",
+    "专业名词记录.md",
+    "开发中的问题.md",
     "我为什么要写博客.md",
     "控制工程小组.md",
-    "开发中的问题.md",
+    "星闪（NearLink）.md",
+    "Poweshell.md",
+    "BlockChain.md",
     "香橙派.md",
     "Lvgl.md",
     "PID理解.md",
-    "Taurus & Pegasus AI 计算机视觉基础开发套件.md",
     "lazyvim.md",
     "2024-04-30.md",
     "NuShell.md",
