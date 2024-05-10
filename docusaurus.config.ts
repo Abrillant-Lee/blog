@@ -5,10 +5,9 @@ import { GiscusConfig } from './src/components/Comment'
 import social from './data/social'
 
 const beian = '豫ICP备2024067790号-1'
-// const beian1 = '豫ICP备2024067790号'
 
 const config: Config = {
-  title: 'nan',
+  title: '意胜云途',
   url: 'https://abrillantlee.top',
   baseUrl: '/',
   favicon: 'img/nan.ico',
@@ -117,11 +116,10 @@ const config: Config = {
         },
       ],
       copyright: `
-        <p style="margin-bottom: 0;"><a href="http://beian.miit.gov.cn/">${beian}</a></p>
-        <p style="display: inline-flex; align-items: center;"><img style="height:20px;margin-right: 0.5rem;" src="/img/police.png" alt="police" height="20"/><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=${beian1.match(
+        <p style="display: inline-flex; align-items: center;"><img style="height:20px;margin-right: 0.5rem;" src="/img/police.png" alt="police" height="20"/><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=${beian.match(
           /\d+/,
-        )?.[0]}" >${beian1}</a></p>
-        <p>Copyright © 2020 - PRESENT 愧怍 Built with Docusaurus.</p>
+        )?.[0]}" >${beian}</a></p>
+        <p>Copyright © 2024 - PRESENT 李浩楠 Built with Docusaurus.</p>
         `,
     },
     algolia: {
