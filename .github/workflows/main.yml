@@ -1,50 +1,42 @@
-# This is a basic workflow to help you get started with Actions
-
-name: Deploy HECS
+name: HECS
 
 on:
   push:
     branches:
-      - main
+      - main #只在master推送时执行
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  build: #构建作业
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - uses: actions/checkout@v3
-      - name: install node
-        uses: pnpm/action-setup@v3.0.0
-        with:
+       - uses: actions/checkout@v3
+       - name: install node
+         uses: pnpm/action-setup@v3.0.0
+         with:
           version: 8.15.4
-      - name: install deps
-        run: pnpm install
-      - name: build app
-        run: pnpm build
-      # 部署到服务器
-      - name: ssh deploy
-        # You may pin to the exact commit or the version.
-        # uses: easingthemes/ssh-deploy@01a39e33483634cbd7ac99020c55b72ca7f098fe
-        uses: easingthemes/ssh-deploy@v5.0.3
+       - name: install deps
+         run: pnpm install
+       - name: build app
+         run: pnpm build
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build # 要求上一个作业完成
+    steps:
+      - uses: actions/checkout@v2
+      - name: pull code
+        uses: appleboy/ssh-action@master
+        env:
+          SERVER_WORKDIR: ${{ secrets.SERVER_WORKDIR }} #传递工作目录变量
         with:
-          # Private key part of an SSH key pair
-          SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
-          # Remote host
-          REMOTE_HOST: ${{ secrets.HOST }}
-          # Remote user
-          REMOTE_USER: "root"
-          # Remote port
-          REMOTE_PORT: # optional, default is 22
-          # Source directory, path relative to `$GITHUB_WORKSPACE` root, eg: `dist/`
-          SOURCE: "build/"
-          # Target directory
-          TARGET: "/data/webroot/nan-website"
-          # Arguments to pass to rsync
-         
+          host: ${{ secrets.SERVER_HOST }} #服务器地址
+          username: ${{ secrets.SERVER_USERNAME }} #用户名
+          key: ${{ secrets.SERVER_KEY }} #私钥 安全问题一定都以变量的方式传递！！！
+          envs: SERVER_WORKDIR #使用工作目录变量
+          # # 进入到项目目录，执行依赖更新
+          # script: |
+          #   cd $SERVER_WORKDIR #进入到工作目录
+          #   git checkout . #丢弃修改
+          #   git pull #拉取代码
+          #   composer update #更新依赖
+          #   sudo supervisorctl restart emo #重启项目
