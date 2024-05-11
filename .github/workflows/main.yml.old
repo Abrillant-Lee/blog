@@ -1,0 +1,33 @@
+name: nan网站部署
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+     runs-on: ubuntu-latest
+     steps:
+      - uses: actions/checkout@v3
+      - name: install node
+        uses: pnpm/action-setup@v3.0.0
+        with:
+          version: 8.15.4
+      - name: install deps
+        run: pnpm install
+      - name: build app
+        run: pnpm build
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          # personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          personal_token: ${{ secrets.TOKEN }}
+          external_repository: Abrillant-Lee/Abrillant-Lee.github.io
+          publish_branch: main  # default: gh-pages
+          publish_dir: ./build
+      #  - name: deploy to server
+      #   run:  npm run deploy
+      #   env:
+      #     SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+      #     GIT_USER: ${{ secrets.GIT_USER }}
+      #     USE_SSH: true
+

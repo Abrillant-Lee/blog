@@ -1,12 +1,24 @@
-name: nan网站部署
+# This is a basic workflow to help you get started with Actions
+
+name: Deploy HECS
+
 on:
   push:
     branches:
       - main
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
+  # This workflow contains a single job called "build"
   build:
-     runs-on: ubuntu-latest
-     steps:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
       - uses: actions/checkout@v3
       - name: install node
         uses: pnpm/action-setup@v3.0.0
@@ -16,18 +28,21 @@ jobs:
         run: pnpm install
       - name: build app
         run: pnpm build
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          # personal_token: ${{ secrets.PERSONAL_TOKEN }}
-          personal_token: ${{ secrets.TOKEN }}
-          external_repository: Abrillant-Lee/Abrillant-Lee.github.io
-          publish_branch: main  # default: gh-pages
-          publish_dir: ./build
-      #  - name: deploy to server
-      #   run:  npm run deploy
-      #   env:
-      #     SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-      #     GIT_USER: ${{ secrets.GIT_USER }}
-      #     USE_SSH: true
-
+      # 部署到服务器
+      - name: deploy
+        uses: easingthemes/ssh-deploy@v2.1.1
+        env:
+          # 本地.ssh文件下的私钥id_rsa，存在secrets的PRIVATE_KEY中
+          SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
+          # 复制操作的参数。"-avzr --delete"意味部署时清空服务器目标目录下的文件
+          ARGS: "-avzr --delete"
+          # 源目录，相对于$GITHUB_WORKSPACE根目录的路径
+          SOURCE: "./build/"
+          # 服务器域名/IP
+          REMOTE_HOST: ${{ secrets.HOST }}
+          # 服务器默认用户名为root
+          REMOTE_USER: "root"
+          # 目标目录
+          TARGET: '/data/webroot/nan-website'
+          # 排除目录
+          EXCLUDE: "/node_modules/"
