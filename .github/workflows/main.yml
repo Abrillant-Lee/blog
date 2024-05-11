@@ -34,9 +34,9 @@ jobs:
           key: ${{ secrets.SERVER_KEY }} #私钥 安全问题一定都以变量的方式传递！！！
           envs: SERVER_WORKDIR #使用工作目录变量
           # # 进入到项目目录，执行依赖更新
-          # script: |
-          #   cd $SERVER_WORKDIR #进入到工作目录
-          #   git checkout . #丢弃修改
-          #   git pull #拉取代码
-          #   composer update #更新依赖
-          #   sudo supervisorctl restart emo #重启项目
+          script: |
+            cd $SERVER_WORKDIR #进入到工作目录
+            git pull #拉取代码
+          #  git checkout . #丢弃修改
+          #  composer update #更新依赖
+          #  sudo supervisorctl restart emo #重启项目
