@@ -47,16 +47,4 @@ jobs:
           # Target directory
           TARGET: "/data/webroot/nan-website"
           # Arguments to pass to rsync
-          ARGS: # optional, default is -rlgoDzvc -i
-          # An array of ssh arguments, they must be prefixed with -o and separated by a comma, for example: -o SomeArgument=no, -o SomeOtherArgument=5
-          SSH_CMD_ARGS: # optional, default is -o StrictHostKeyChecking=no
-          # paths to exclude separated by `,`, ie: `/dist/, /node_modules/`
-          EXCLUDE: # optional, default is
-          # Script to run on host machine before rsync
-          SCRIPT_BEFORE: # optional, default is
-          # If not an empty string, the action will fail if the before script fails. Note: The string 'false' will be treated as true
-          SCRIPT_BEFORE_REQUIRED: # optional, default is
-          # Script to run on host machine after rsync
-          SCRIPT_AFTER: # optional, default is
-          # If not an empty string, the action will fail if the after script fails. Note: The string 'false' will be treated as true
-          SCRIPT_AFTER_REQUIRED: # optional, default is
+         
