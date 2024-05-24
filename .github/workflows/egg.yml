@@ -2,6 +2,11 @@ name: 打包Docusaurus项目
 
 on: push # 当有内容push到仓库时触发
 
+# 权限配置
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   pnpm-build:
     name: pnpm-build 工作
