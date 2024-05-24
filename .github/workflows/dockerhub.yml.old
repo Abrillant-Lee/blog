@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   pnpm-build:
-    name: pnpm-build 工作
+    name: 构建镜像并推送到Docker Hub
     runs-on: ubuntu-latest
 
     steps:
