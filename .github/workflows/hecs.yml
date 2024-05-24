@@ -28,7 +28,8 @@ jobs:
       run: pnpm build
 
     - name: 复制打包好的文件到Nginx服务器😍
-      uses: c0c1/scp-action@v1.0
+      # uses: c0c1/scp-action@v1.0
+      uses: up9cloud/action-rsync@v1.4
       with:
         # Sorce dir to deploy
         src: "build/*"
