@@ -1,0 +1,10 @@
+on: push # 当有内容push到仓库时触发
+
+jobs:
+  job1:
+    runs-on: ubuntu-lastest
+    steps:
+    -run: pwd
+
+
+

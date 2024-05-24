@@ -46,6 +46,27 @@ ssh-keygen
  Linux中公钥中的内容，复制到myserver中的`~/.ssh/authorized_keys`文件里即可,没有的话直接创建即可。
 
 
+## 配置不熄屏幕
+
+1. 安装 `dconf-cli` 工具：
+	```bash
+	sudo apt install dconf-cli
+	```
+2. 通过以下命令将屏幕闲置关闭时间设置为0（即从不关闭）：
+```bash
+gsettings set org.gnome.desktop.session idle-delay 0
+```
+3. 禁用屏幕保护程序锁定：
+  ```bash
+gsettings set org.gnome.desktop.screensaver lock-enabled false
+gsettings set org.gnome.desktop.screensaver idle-activation-enabled false
+gsettings set org.gnome.desktop.screensaver lock-delay 0
+gsettings set org.gnome.desktop.screensaver ubuntu-lock-on-suspend false
+
+```
+
+
+
 官方中午文档：[介绍 | Nushell](https://www.nushell.sh/zh-CN/book/)
 
 ## NuShell

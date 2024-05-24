@@ -1,4 +1,4 @@
-name: nan网站部署
+name: github部署
 on:
   push:
     branches:
