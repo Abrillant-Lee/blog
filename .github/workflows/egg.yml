@@ -1,9 +1,16 @@
+name: 打包Docusaurus项目
+
 on: push # 当有内容push到仓库时触发
 
 jobs:
   pnpm-build:
+    name: pnpm-build 工作
     runs-on: ubuntu-lastest
+
     steps:
-    - uses: actions/checkout@v4
-    - run: pnpm install
-    - run: pnpm build
+    - name: 读取仓库内容😁
+      uses: actions/checkout@v4
+    - name: 安装依赖🚀
+      run: pnpm install
+    - name: 项目打包📦
+      run: pnpm build
