@@ -5,7 +5,7 @@ on: push # 当有内容push到仓库时触发
 jobs:
   pnpm-build:
     name: pnpm-build 工作
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
 
     steps:
     - name: 读取仓库内容😁
