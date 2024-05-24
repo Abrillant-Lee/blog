@@ -5,6 +5,10 @@ jobs:
     runs-on: ubuntu-lastest
     steps:
     -run: pwd
+  job2:
+    runs-on: windows-latest
+    steps:
+    -run: node --version
 
 
 
