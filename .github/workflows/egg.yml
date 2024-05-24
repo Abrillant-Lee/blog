@@ -4,7 +4,6 @@ jobs:
   pnpm-build:
     runs-on: ubuntu-lastest
     steps:
-    - run: pwd
-    - run: pnpm --version
+    - uses: actions/checkout@v4
     - run: pnpm install
     - run: pnpm build
