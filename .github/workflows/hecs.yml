@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   pnpm-build:
-    name: pnpm-build 工作
+    name: 项目部署到HECS服务器上
     runs-on: ubuntu-latest
 
     steps:
@@ -27,7 +27,7 @@ jobs:
     - name: 项目打包📦
       run: pnpm build
 
-    - name: 部署😍
+    - name: 复制打包好的文件到Nginx服务器😍
       uses: c0c1/scp-action@v1.0
       with:
         # Sorce dir to deploy
@@ -37,7 +37,7 @@ jobs:
         # Remote dir path
         remote: ${{secrets.SERVER_WORKDIR}}
         # SSH Port
-        port: # optional, default is 22
+        port: 22 # optional, default is 22
         # SSH User name
         user: ${{ secrets.SERVER_USERNAME}}
         # Private key
