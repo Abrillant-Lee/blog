@@ -2,13 +2,10 @@ on: push # 当有内容push到仓库时触发
 
 jobs:
   job1:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
-    -run: pwd
+    - run: pwd
   job2:
     runs-on: windows-latest
     steps:
-    -run: node --version
-
-
-
+    - run: node --version
