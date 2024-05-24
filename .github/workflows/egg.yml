@@ -1,11 +1,10 @@
 on: push # 当有内容push到仓库时触发
 
 jobs:
-  job1:
-    runs-on: ubuntu-latest
+  pnpm-build:
+    runs-on: ubuntu-lastest
     steps:
     - run: pwd
-  job2:
-    runs-on: windows-latest
-    steps:
-    - run: node --version
+    - run: pnpm --version
+    - run: pnpm install
+    - run: pnpm build
