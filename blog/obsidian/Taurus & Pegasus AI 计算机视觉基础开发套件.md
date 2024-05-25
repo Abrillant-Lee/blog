@@ -16,6 +16,9 @@ image: /img/blog/Hisilicon.png
 [嵌入式AI计算机视觉应用开发学习资料](https://developer.hisilicon.com/postDetail?tid=0206112326723530001)  
 [润和满天星系列Taurus&Pegasus AI计算机视觉基础开发套件介绍及资料](https://developer.hisilicon.com/postDetail?tid=0227114256333949001)  
 [海思社区-嵌入式AI计算机视觉](https://developer.hisilicon.com/forum/0104108098585524001)  
+
+Taurus开发环境搭建:https://gitee.com/HiSpark/HiSpark_NICU2023/blob/master/2.2%20Taurus%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md#22taurus%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA
+
 ### 一、芯片介绍
 Hi3516DV300是一款行业专用 Smart HD IP 摄像机 SOC，集成高性能 NNIE 引擎和 H.265 视频压缩编码器，使得在低码率、高画质、智能处理和分析、低功耗等方面有较 好的性能。 
 - 双核 Cortex-A7，主频 900M Hz 
