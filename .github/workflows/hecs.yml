@@ -27,25 +27,26 @@ jobs:
     - name: 项目打包📦
       run: pnpm build
 
-    - name: 复制打包好的文件到Nginx服务器😍
-      uses: c0c1/scp-action@v1.0
-      #uses: up9cloud/action-rsync@v1.4
-      with:
-        # Sorce dir to deploy
-        src: "build/*"
-        # SSH address
-        host: ${{secrets.SERVER_HOST}}
-        # Remote dir path
-        remote: ${{secrets.SERVER_WORKDIR}}
-        # SSH Port
-        port: 22 # optional, default is 22
-        # SSH User name
-        user: ${{ secrets.SERVER_USERNAME}}
-        # Private key
-        key: ${{secrets.SSH_PRIVATE_KEY}}
+    # - name: 复制打包好的文件到Nginx服务器😍
+    #   uses: c0c1/scp-action@v1.0
+    #   #uses: up9cloud/action-rsync@v1.4
+    #   with:
+    #     # Sorce dir to deploy
+    #     src: "build/*"
+    #     # SSH address
+    #     host: ${{secrets.SERVER_HOST}}
+    #     # Remote dir path
+    #     remote: ${{secrets.SERVER_WORKDIR}}
+    #     # SSH Port
+    #     port: 22 # optional, default is 22
+    #     # SSH User name
+    #     user: ${{ secrets.SERVER_USERNAME}}
+    #     # Private key
+    #     key: ${{secrets.SSH_PRIVATE_KEY}}
 
     - name: 部署到GitHub上😍
       uses: JamesIves/github-pages-deploy-action@v4
       with:
+        repository-name: Abrillant.github.io
         branch: main
         folder: build
