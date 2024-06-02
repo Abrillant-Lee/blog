@@ -43,3 +43,9 @@ jobs:
         user: ${{ secrets.SERVER_USERNAME}}
         # Private key
         key: ${{secrets.SSH_PRIVATE_KEY}}
+
+    - name: 部署到GitHub上😍
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        branch: main
+        folder: build

@@ -100,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "华为云HECS服务器.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "华为云HECS服务器.md"
+                "file": "碳排放预测算法.md"
               }
             }
           },
@@ -133,7 +132,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "华为云HECS服务器.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -172,17 +170,18 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "95c8ead7c8a7e6fb",
+  "active": "04e5afd84578bed6",
   "lastOpenFiles": [
+    "华为云HECS服务器.md",
+    "碳排放预测算法.md",
+    "专业名词记录.md",
     "意志会带我杀出重围.md",
     "Taurus & Pegasus AI 计算机视觉基础开发套件.md",
-    "华为云HECS服务器.md",
     "开发中的问题.md",
     "控制工程小组.md",
     "我为什么要写博客.md",
     "香橙派.md",
     "星闪（NearLink）.md",
-    "专业名词记录.md",
     "PID理解.md",
     "Lvgl.md",
     "lazyvim.md",
@@ -204,7 +203,6 @@
     "比赛",
     "IoT/抑郁评估",
     "IoT/节能管家/区块链/搭建第一个区块链网络.md",
-    "IoT/节能管家/计算机设计大赛.md",
     "Linux",
     "未命名.canvas",
     "IoT/节能管家",
