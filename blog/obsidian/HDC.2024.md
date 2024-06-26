@@ -11,6 +11,5 @@ description: HDC.2024 遥遥领先!
 image: https://Abrillant-lee.github.io/HDC/HDC.jpg
 ---
 
-[星闪技术 | 海思官网 (hisilicon.com)](https://www.hisilicon.com/cn/techtalk/nearlink)
-
+[星闪技术 | 海思官网 (hisilicon.com)](https://www.hisilicon.com/cn/techt talk/nearlink)
 
