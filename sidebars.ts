@@ -27,24 +27,24 @@ const sidebars: SidebarsConfig = {
       ],
     },
 
-    // 'project/introduction',
-    // {
-    //   label: 'Docusaurus 主题魔改',
-    //   type: 'category',
-    //   link: {
-    //     type: 'doc',
-    //     id: 'project/docusaurus/docusaurus-guides',
-    //   },
-    //   items: [
-    //     'project/docusaurus/docusaurus-config',
-    //     'project/docusaurus/docusaurus-style',
-    //     'project/docusaurus/docusaurus-component',
-    //     'project/docusaurus/docusaurus-plugin',
-    //     'project/docusaurus/docusaurus-search',
-    //     'project/docusaurus/docusaurus-comment',
-    //     'project/docusaurus/docusaurus-deploy',
-    //   ],
-    // },
+    'project/introduction',
+    {
+      label: 'Docusaurus 主题魔改',
+      type: 'category',
+      link: {
+        type: 'doc',
+        id: 'project/docusaurus/docusaurus-guides',
+      },
+      items: [
+        'project/docusaurus/docusaurus-config',
+        'project/docusaurus/docusaurus-style',
+        'project/docusaurus/docusaurus-component',
+        'project/docusaurus/docusaurus-plugin',
+        'project/docusaurus/docusaurus-search',
+        'project/docusaurus/docusaurus-comment',
+        'project/docusaurus/docusaurus-deploy',
+      ],
+    },
   ],
   tools: [
     'tools/introduction',

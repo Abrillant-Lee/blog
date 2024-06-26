@@ -1,7 +1,7 @@
 ---
 id: introduction
 slug: /project
-title: 项目
+title: Docusaurus项目
 keywords:
   - 星闪
   - 开源之夏
