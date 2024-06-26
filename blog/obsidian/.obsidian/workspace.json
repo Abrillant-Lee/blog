@@ -39,7 +39,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开源之夏2024.md",
+                "file": "华为云HECS服务器.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4f55d524c1a253b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HDC.2024.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -113,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "开源之夏2024.md",
+                "file": "HDC.2024.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "开源之夏2024.md"
+                "file": "HDC.2024.md"
               }
             }
           },
@@ -146,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "开源之夏2024.md",
+                "file": "HDC.2024.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -185,23 +198,24 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "fd9498bbff429959",
+  "active": "4f55d524c1a253b3",
   "lastOpenFiles": [
-    "开发中的问题.md",
-    "华为云HECS服务器.md",
     "开源之夏2024.md",
+    "HDC.2024.md",
     "控制工程小组.md",
-    "星闪（NearLink）.md",
-    "碳排放预测算法.md",
-    "专业名词记录.md",
-    "意志会带我杀出重围.md",
-    "Taurus & Pegasus AI 计算机视觉基础开发套件.md",
     "我为什么要写博客.md",
     "香橙派.md",
-    "PID理解.md",
-    "Lvgl.md",
-    "lazyvim.md",
+    "星闪（NearLink）.md",
+    "意志会带我杀出重围.md",
+    "专业名词记录.md",
     "BlockChain.md",
+    "开发中的问题.md",
+    "lazyvim.md",
+    "Lvgl.md",
+    "PID理解.md",
+    "Taurus & Pegasus AI 计算机视觉基础开发套件.md",
+    "华为云HECS服务器.md",
+    "碳排放预测算法.md",
     "Poweshell.md",
     "2024-04-30.md",
     "NuShell.md",
@@ -215,7 +229,6 @@
     "IoT/节能管家/红外学习模块钻石版.md",
     "Linux/NuShell.md",
     "未命名 1.md",
-    "比赛/关于组织参加第二十三届全国大学生机器人大赛ROBOCON的通知.md",
     "比赛",
     "IoT/抑郁评估",
     "Linux",

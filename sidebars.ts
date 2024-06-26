@@ -1,26 +1,50 @@
 import type { SidebarsConfig } from '@docusaurus/plugin-content-docs'
 
 const sidebars: SidebarsConfig = {
-  skill: [
-    'skill/introduction',
+   project: [
+    // 开源之夏
+    'summer_ospp/introduction',
     {
-      label: 'Docusaurus 主题魔改',
+      label: '欧拉派',
       type: 'category',
       link: {
         type: 'doc',
-        id: 'skill/docusaurus/docusaurus-guides',
+        id: 'summer_ospp/HiEuler/hieuler-guides',
       },
       items: [
-        'skill/docusaurus/docusaurus-config',
-        'skill/docusaurus/docusaurus-style',
-        'skill/docusaurus/docusaurus-component',
-        'skill/docusaurus/docusaurus-plugin',
-        'skill/docusaurus/docusaurus-search',
-        'skill/docusaurus/docusaurus-comment',
-        'skill/docusaurus/docusaurus-deploy',
+        'project/docusaurus/docusaurus-config',
+      ],
+    },
+    {
+      label: 'Hi3863',
+      type: 'category',
+      link: {
+        type: 'doc',
+        id: 'summer_ospp/HiEuler/hieuler-guides',
+      },
+      items: [
+        'project/docusaurus/docusaurus-config',
       ],
     },
 
+    // 'project/introduction',
+    // {
+    //   label: 'Docusaurus 主题魔改',
+    //   type: 'category',
+    //   link: {
+    //     type: 'doc',
+    //     id: 'project/docusaurus/docusaurus-guides',
+    //   },
+    //   items: [
+    //     'project/docusaurus/docusaurus-config',
+    //     'project/docusaurus/docusaurus-style',
+    //     'project/docusaurus/docusaurus-component',
+    //     'project/docusaurus/docusaurus-plugin',
+    //     'project/docusaurus/docusaurus-search',
+    //     'project/docusaurus/docusaurus-comment',
+    //     'project/docusaurus/docusaurus-deploy',
+    //   ],
+    // },
   ],
   tools: [
     'tools/introduction',

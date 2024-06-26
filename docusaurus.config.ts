@@ -59,17 +59,18 @@ const config: Config = {
         {
           label: '项目',
           position: 'right',
-          to: 'project',
+          // to: 'project',
+          to: 'docs/summer_ospp',
         },
         {
           label: '更多',
           position: 'right',
           items: [
             { label: '归档', to: 'blog/archive' },
-            { label: '笔记', to: 'docs/skill' },
+            // { label: '笔记', to: 'docs/skill' },
             // { label: '资源', to: 'resources' },
             { label: '友链', to: 'friends' },
-            { label: '工具推荐', to: 'docs/tools' },
+            // { label: '工具推荐', to: 'docs/tools' },
           ],
         },
         {
@@ -86,7 +87,7 @@ const config: Config = {
           items: [
             { label: '博客', to: 'blog' },
             { label: '归档', to: 'blog/archive' },
-            { label: '技术笔记', to: 'docs/skill' },
+            // { label: '技术笔记', to: 'docs/skill' },
             { label: '实战项目', to: 'project' },
           ],
         },
