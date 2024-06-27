@@ -2,7 +2,7 @@ import type { SidebarsConfig } from '@docusaurus/plugin-content-docs'
 
 const sidebars: SidebarsConfig = {
    project: [
-    // 开源之夏
+    // HiEuler
     'summer_ospp/introduction',
     {
       label: '欧拉派',
@@ -12,39 +12,53 @@ const sidebars: SidebarsConfig = {
         id: 'summer_ospp/HiEuler/hieuler-guides',
       },
       items: [
-        'project/docusaurus/docusaurus-config',
+        'summer_ospp/HiEuler/hieuler-process',
       ],
     },
+    // EulerCar
     {
-      label: 'Hi3863',
+      label: 'EulerCar',
       type: 'category',
       link: {
         type: 'doc',
-        id: 'summer_ospp/HiEuler/hieuler-guides',
+        id: 'summer_ospp/EulerCar/eulercar-guides',
       },
       items: [
         'project/docusaurus/docusaurus-config',
+      ],
+    },
+   // Command
+    {
+      label: 'Command',
+      type: 'category',
+      link: {
+        type: 'doc',
+        id: 'summer_ospp/Command/command-guides',
+      },
+      items: [
+        'summer_ospp/Command/command-usermod',
+        'summer_ospp/Command/command-record',
       ],
     },
 
-    'project/introduction',
-    {
-      label: 'Docusaurus 主题魔改',
-      type: 'category',
-      link: {
-        type: 'doc',
-        id: 'project/docusaurus/docusaurus-guides',
-      },
-      items: [
-        'project/docusaurus/docusaurus-config',
-        'project/docusaurus/docusaurus-style',
-        'project/docusaurus/docusaurus-component',
-        'project/docusaurus/docusaurus-plugin',
-        'project/docusaurus/docusaurus-search',
-        'project/docusaurus/docusaurus-comment',
-        'project/docusaurus/docusaurus-deploy',
-      ],
-    },
+    // 'project/introduction',
+    // {
+    //   label: 'Docusaurus 主题魔改',
+    //   type: 'category',
+    //   link: {
+    //     type: 'doc',
+    //     id: 'project/docusaurus/docusaurus-guides',
+    //   },
+    //   items: [
+    //     'project/docusaurus/docusaurus-config',
+    //     'project/docusaurus/docusaurus-style',
+    //     'project/docusaurus/docusaurus-component',
+    //     'project/docusaurus/docusaurus-plugin',
+    //     'project/docusaurus/docusaurus-search',
+    //     'project/docusaurus/docusaurus-comment',
+    //     'project/docusaurus/docusaurus-deploy',
+    //   ],
+    // },
   ],
   tools: [
     'tools/introduction',
