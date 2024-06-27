@@ -32,3 +32,13 @@ keywords:
    - 使用亚克力板组装后
 
    <img src="https://abrillant-lee.github.io/Summer-OSPP2024/海鸥派-亚克力板封装.jpg" width="600"/>
+
+
+1. 更新 browserslist 数据库以解决 caniuse-lite 过时的警告：
+   - 运行 `npx browserslist@latest --update-db`
+
+2. 解决 Docusaurus 构建错误，错误信息提示无法在上下文中找到当前侧边栏：
+   - 检查文档配置文件（如 `sidebars.js` 或 `sidebars.json`），确保引用的文档 ID 或路径正确无误。
+   - 确认所有文档都已正确分类到侧边栏中，特别是提到的 `/docs/docusaurus-guides` 路径。
+
+3. 如果问题仍然存在，考虑检查 Docusaurus 的版本兼容性问题或查看 Docusaurus 社区和文档寻求更具体的解决方案。
