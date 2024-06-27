@@ -24,7 +24,6 @@ const sidebars: SidebarsConfig = {
         id: 'summer_ospp/EulerCar/eulercar-guides',
       },
       items: [
-        'project/docusaurus/docusaurus-config',
       ],
     },
    // Command
