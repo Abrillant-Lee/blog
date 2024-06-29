@@ -13,6 +13,7 @@ const sidebars: SidebarsConfig = {
       },
       items: [
         'summer_ospp/HiEuler/hieuler-process',
+        'summer_ospp/HiEuler/hieuler-one',
       ],
     },
     // EulerCar

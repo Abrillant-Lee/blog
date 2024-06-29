@@ -13,6 +13,7 @@ authors: nan
 
 3. [使用oebuild工具构建 海鸥派镜像](https://embedded.pages.openeuler.org/master/bsp/arm64/hieulerpi/hieulerpi.html)
 
+4. [海鸥派Euler Pi 快速体验手册.pdf](https://github.com/Abrillant-Lee/Abrillant-Lee.github.io/blob/main/Summer-OSPP2024/EulerPi_Quick%20_Experience.pdf)
 
 
 
