@@ -20,13 +20,13 @@ authors: nan
 
 1. 注意烧录固件大小，4G使用4G的固件
 
-<img src="https://abrillant-lee.github.io/Summer-OSPP2024/错误固件.png" width="600"/>
+<img src="https://abrillant-lee.github.io/Summer-OSPP2024/错误固件.png" width="500"/>
 
 烧录成功
 
-<img src="https://abrillant-lee.github.io/Summer-OSPP2024/烧录ing.png" width="600"/>
+<img src="https://abrillant-lee.github.io/Summer-OSPP2024/烧录ing.png" width="500"/>
 总耗时：36min 15s
-<img src="https://abrillant-lee.github.io/Summer-OSPP2024/第一次烧录成功.png" width="600"/>
+<img src="https://abrillant-lee.github.io/Summer-OSPP2024/第一次烧录成功.png" width="500"/>
 
 
 
