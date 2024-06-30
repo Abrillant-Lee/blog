@@ -1,6 +1,6 @@
 ---
-id: hieuler-guides
-slug: /hieuler-guides
+id: hieuler-hieuler
+slug: /hieuler-hieuler
 title: 欧拉派
 authors: nan 
 keywords:
@@ -32,3 +32,6 @@ keywords:
    - 使用亚克力板组装后
 
    <img src="https://abrillant-lee.github.io/Summer-OSPP2024/海鸥派-亚克力板封装.jpg" width="600"/>
+
+
+'summer_ospp/HiEuler/hieuler-one',

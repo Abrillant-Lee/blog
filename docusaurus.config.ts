@@ -41,6 +41,7 @@ const config: Config = {
     docs: {
       sidebar: {
         hideable: true,
+        autoCollapseCategories: true,
       },
     },
     navbar: {
@@ -183,6 +184,7 @@ const config: Config = {
         docs: {
           path: 'docs',
           sidebarPath: 'sidebars.ts',
+          // breadcrumbs: false, //面包屑导航
         },
         blog: false,
         theme: {

@@ -1,7 +1,7 @@
 ---
 id: introduction
 slug: /summer_ospp
-title: 开源之夏
+title: Summer-OSPP.2024
 authors: nan 
 keywords:
   - 星闪
