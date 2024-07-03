@@ -15,5 +15,8 @@ keywords:
    - WS63星闪开发板
    - EulerCar小车（外壳+底盘）
    - 星闪遥控器
-  <img src="https://abrillant-lee.github.io/Summer-OSPP2024/EulerCar.jpg" width="600"/>
+  <img src="https://abrillant-lee.github.io/Summer-OSPP2024/EulerCar.jpg" width="600"/><br/>
 
+
+3. 将欧拉派组装进小车里
+  <img src="https://abrillant-lee.github.io/Summer-OSPP2024/EulerCar组装.jpg" width="400"/>

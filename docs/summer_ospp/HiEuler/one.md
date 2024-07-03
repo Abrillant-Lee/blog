@@ -5,10 +5,12 @@ title: 1. 构建/烧写固件
 authors: nan 
 ---
 
+观看官方文档提供的[海鸥派Euler Pi 快速体验手册.pdf](https://github.com/Abrillant-Lee/Abrillant-Lee.github.io/blob/main/Summer-OSPP2024/EulerPi_Quick%20_Experience.pdf) 完成镜像烧写；可直接看`6.固件烧写`,
+
 1. 固件来源：
 - 官方网盘中给的固件
 - gitee中下载固件
-- 自己构建的固件
+- 自己构建的固件,我选择使用wsl中的ubuntu构建固件(VM虚拟机太繁琐)
 
 目前主要看gitee中的文档和网盘中的，更新及时，其他的文档省略
 
