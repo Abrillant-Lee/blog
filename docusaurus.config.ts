@@ -64,6 +64,16 @@ const config: Config = {
           to: 'docs/summer_ospp',
         },
         {
+          label: '工具',
+          position: 'right',
+          to: 'docs/tools',
+          items: [
+            { label: 'Git', to: 'docs/tools/git' },
+            { label: 'Docker', to: 'docs/tools/docker' },
+            // { label: '工具推荐', to: 'docs/tools' },
+          ],
+        },
+        {
           label: '更多',
           position: 'right',
           items: [

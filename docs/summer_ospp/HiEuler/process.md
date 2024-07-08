@@ -9,7 +9,7 @@ authors: nan
 
 1. [掌握海鸥派硬件特性](https://embedded.pages.openeuler.org/master/bsp/arm64/hieulerpi/hardware_features.html)
 2. 海鸥派烧写系统
-   - [学习 oebuild 的相关命令并掌握如何构建定制化的 openEuler Embedded 镜像](https://embedded.pages.openeuler.org/master/oebuild/userguide/install/index.html#oebuild-install)
+   - [学习 oebuild 的相关命令并掌握如何构建定制化的 openEuler Embedded 镜像](https://embedded.pages.openeuler.org/master/oebuild/**userguide**/install/index.html#oebuild-install)
    - [海鸥派Euler Pi 快速体验手册.pdf](https://github.com/Abrillant-Lee/Abrillant-Lee.github.io/blob/main/Summer-OSPP2024/EulerPi_Quick%20_Experience.pdf)
    - [使用oebuild工具构建 海鸥派镜像](https://embedded.pages.openeuler.org/master/bsp/arm64/hieulerpi/hieulerpi.html)
 3. [海鸥派配置网络](https://embedded.pages.openeuler.org/master/bsp/arm64/hieulerpi/hieulerpi-wifi.html)

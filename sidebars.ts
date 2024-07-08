@@ -1,7 +1,7 @@
 import type { SidebarsConfig } from '@docusaurus/plugin-content-docs'
 
 const sidebars: SidebarsConfig = {
-   Sumeer_OSPP2024: [
+  Sumeer_OSPP2024: [
     // HiEuler
     'summer_ospp/introduction',
     {
@@ -55,6 +55,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'summer_ospp/Command/command-usermod',
         'summer_ospp/Command/command-record',
+        'summer_ospp/Command/command-wpa',
       ],
     },
     // 其他星闪的应用案例
@@ -79,6 +80,34 @@ const sidebars: SidebarsConfig = {
       href: 'https://example.com',
     },
   ],
+  Tools:[
+    "tools/introduction",
+    {
+      label: 'git',
+      type: 'category',
+      link: {
+      type: 'doc',
+      id: 'tools/git/git-guides',
+      },
+      items: [
+        "tools/git/git-tag"
+      ],
+    },
+    {
+      label: 'docker',
+      type: 'category',
+      link: {
+      type: 'doc',
+      id: 'tools/docker/docker-guides',
+      },
+      items: [
+      ],
+    },
+
+
+
+  ]
+
 }
 
 module.exports = sidebars
