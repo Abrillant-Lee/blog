@@ -23,6 +23,12 @@ keywords:
 ## 安信可
  ### 
 
+## 润和
+ #### 1. 润和软件星闪开源项目
+  - [润和软件星闪开源项目](https://gitee.com/hihopeorg_group/near-link)
+  - 润和WS63开发板测试例程等
+
+
 ## 其他
  #### 4. 使用CH32V307VCT6的USART外设发送AT指令进行星闪通信
   - [使用CH32V307VCT6的USART外设发送AT指令进行星闪通信](https://github.com/Fangling-Kare/NearLink)
