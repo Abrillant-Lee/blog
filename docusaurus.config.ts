@@ -68,8 +68,8 @@ const config: Config = {
           position: 'right',
           to: 'docs/tools',
           items: [
-            { label: 'Git', to: 'docs/tools/git' },
-            { label: 'Docker', to: 'docs/tools/docker' },
+            { label: 'Git', to: 'docs/git-guides' },
+            { label: 'Docker', to: 'docs/docker-guides' },
             // { label: '工具推荐', to: 'docs/tools' },
           ],
         },
