@@ -6,6 +6,9 @@ authors: nan
 keywords:
   - 星闪
 ---
+## 资料
+
+- 星闪技术资料  https://docs.ai-thinker.com/nearlink
 
 ## 其他
  #### 4. 使用CH32V307VCT6的USART外设发送AT指令进行星闪通信
