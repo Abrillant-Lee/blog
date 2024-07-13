@@ -20,3 +20,6 @@ keywords:
 
 3. 将欧拉派组装进小车里
   <img src="https://abrillant-lee.github.io/Summer-OSPP2024/EulerCar组装.jpg" width="400"/>
+
+
+  <img src="https://abrillant-lee.github.io/Summer-OSPP2024/合照.jpg" width="400"/>

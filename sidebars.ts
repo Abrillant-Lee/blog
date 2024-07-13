@@ -1,7 +1,7 @@
 import type { SidebarsConfig } from '@docusaurus/plugin-content-docs'
 
 const sidebars: SidebarsConfig = {
-   Sumeer_OSPP2024: [
+  Sumeer_OSPP2024: [
     // HiEuler
     'summer_ospp/introduction',
     {
@@ -55,22 +55,29 @@ const sidebars: SidebarsConfig = {
       items: [
         'summer_ospp/Command/command-usermod',
         'summer_ospp/Command/command-record',
+        'summer_ospp/Command/command-wpa',
       ],
     },
     // 其他星闪的应用案例
     {
       label: '其他星闪开发板',
       type: 'category',
-      link: {
-        type: 'generated-index', //生成索引
-        title: '其他星闪开发板',
-        description:
-          "其他星闪开发板的使用案例",
-        keywords: ['guides'],
-        image: '/img/logo.png',
+      link:{
+        type: 'doc',
+        id: 'summer_ospp/nearlink_extra/nearlink-extra-guides',
       },
+      // link: {
+      //   type: 'generated-index', //生成索引
+      //   title: '其他星闪开发板',
+      //   description:
+      //     "其他星闪开发板的使用案例",
+      //   keywords: ['guides'],
+      //   image: '/img/logo.png',
+      // },
       items: [
-        'summer_ospp/nearlink_extra/nearlink-extra-guides'
+        'summer_ospp/nearlink_extra/nearlink-extra-ws63e',
+        'summer_ospp/nearlink_extra/nearlink-extra-hi2821',
+        'summer_ospp/nearlink_extra/nearlink-extra-Ai-BS21-32S'
       ],
     },
     {
@@ -79,6 +86,34 @@ const sidebars: SidebarsConfig = {
       href: 'https://example.com',
     },
   ],
+  Tools:[
+    "tools/introduction",
+    {
+      label: 'git',
+      type: 'category',
+      link: {
+      type: 'doc',
+      id: 'tools/git/git-guides',
+      },
+      items: [
+        "tools/git/git-tag"
+      ],
+    },
+    {
+      label: 'docker',
+      type: 'category',
+      link: {
+      type: 'doc',
+      id: 'tools/docker/docker-guides',
+      },
+      items: [
+      ],
+    },
+
+
+
+  ]
+
 }
 
 module.exports = sidebars
