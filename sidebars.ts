@@ -62,16 +62,22 @@ const sidebars: SidebarsConfig = {
     {
       label: '其他星闪开发板',
       type: 'category',
-      link: {
-        type: 'generated-index', //生成索引
-        title: '其他星闪开发板',
-        description:
-          "其他星闪开发板的使用案例",
-        keywords: ['guides'],
-        image: '/img/logo.png',
+      link:{
+        type: 'doc',
+        id: 'summer_ospp/nearlink_extra/nearlink-extra-guides',
       },
+      // link: {
+      //   type: 'generated-index', //生成索引
+      //   title: '其他星闪开发板',
+      //   description:
+      //     "其他星闪开发板的使用案例",
+      //   keywords: ['guides'],
+      //   image: '/img/logo.png',
+      // },
       items: [
-        'summer_ospp/nearlink_extra/nearlink-extra-guides'
+        'summer_ospp/nearlink_extra/nearlink-extra-ws63e',
+        'summer_ospp/nearlink_extra/nearlink-extra-hi2821',
+        'summer_ospp/nearlink_extra/nearlink-extra-Ai-BS21-32S'
       ],
     },
     {
