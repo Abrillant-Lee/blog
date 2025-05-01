@@ -8,7 +8,8 @@ const beian = '豫ICP备2024067790号-1'
 
 const config: Config = {
   title: '意胜云途',
-  url: 'https://abrillantlee.top',
+  // url: 'https://abrillantlee.top',
+  url: 'https://abrillantlee.github.io',
   baseUrl: '/',
   favicon: 'img/nan.ico',
   organizationName: 'Abrillant-Lee',
