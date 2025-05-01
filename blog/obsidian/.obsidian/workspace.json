@@ -1,0 +1,249 @@
+{
+  "main": {
+    "id": "c563795d20e24095",
+    "type": "split",
+    "children": [
+      {
+        "id": "1b39e1069a00021c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a1aa8d4cedf4431b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "星闪（NearLink）.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "95c8ead7c8a7e6fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "华为云HECS服务器.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fd9498bbff429959",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "华为云HECS服务器.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4f55d524c1a253b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HDC.2024.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fc02ca0687e8b6b4",
+    "type": "split",
+    "children": [
+      {
+        "id": "431386ba09139367",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "04e5afd84578bed6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d576e74cab14da37",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7ed060609f00021f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 204
+  },
+  "right": {
+    "id": "299d73abda9eed15",
+    "type": "split",
+    "children": [
+      {
+        "id": "70160c69912a430f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "35d7fe104f672311",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "HDC.2024.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f8fb76f3ae2c9173",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6deb33c205c1b9f6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "HDC.2024.md"
+              }
+            }
+          },
+          {
+            "id": "3cea09ded3626e6f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "HDC.2024.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2491be6a26fbe090",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 265
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "publish:发布更改": false,
+      "workspaces:管理工作区布局": false,
+      "zk-prefixer:创建时间戳笔记": false
+    }
+  },
+  "active": "4f55d524c1a253b3",
+  "lastOpenFiles": [
+    "开源之夏2024.md",
+    "HDC.2024.md",
+    "控制工程小组.md",
+    "我为什么要写博客.md",
+    "香橙派.md",
+    "星闪（NearLink）.md",
+    "意志会带我杀出重围.md",
+    "专业名词记录.md",
+    "BlockChain.md",
+    "开发中的问题.md",
+    "lazyvim.md",
+    "Lvgl.md",
+    "PID理解.md",
+    "Taurus & Pegasus AI 计算机视觉基础开发套件.md",
+    "华为云HECS服务器.md",
+    "碳排放预测算法.md",
+    "Poweshell.md",
+    "2024-04-30.md",
+    "NuShell.md",
+    "昇思MindSpore.md",
+    "FFmpeg.md",
+    "IoT/黑色素瘤.md",
+    "IoT/轮值整理.md",
+    "IoT/img/Pasted image 20240422132301.png",
+    "IoT/img",
+    "IoT/img/Pasted image 20240422132615.png",
+    "IoT/节能管家/红外学习模块钻石版.md",
+    "Linux/NuShell.md",
+    "未命名 1.md",
+    "比赛",
+    "IoT/抑郁评估",
+    "Linux",
+    "未命名.canvas",
+    "IoT/节能管家",
+    "IoT/项目监督",
+    "动脑子",
+    "IoT/比赛/img/5.png",
+    "IoT/比赛/img/4.png",
+    "IoT/比赛/img/3.png",
+    "IoT/比赛/img/2.png",
+    "IoT/比赛/img/1.png",
+    "IoT/比赛/img",
+    "比赛/2024昇腾AI原生创新算子挑战赛",
+    "IoT/比赛",
+    "IoT/节能管家/区块链/img/1.png"
+  ]
+}
