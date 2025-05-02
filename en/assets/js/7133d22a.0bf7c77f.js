@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[8052],{5225:e=>{e.exports=JSON.parse('{"label":"HDC","permalink":"/en/blog/tags/hdc","allTagsPath":"/en/blog/tags","count":1,"unlisted":false}')}}]);

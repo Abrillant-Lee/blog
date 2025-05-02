@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[6260],{1430:s=>{s.exports=JSON.parse('{"label":"stm32","permalink":"/blog/tags/stm-32","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

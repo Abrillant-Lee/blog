@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[4277],{4154:l=>{l.exports=JSON.parse('{"label":"lazyvim","permalink":"/blog/tags/lazyvim","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
