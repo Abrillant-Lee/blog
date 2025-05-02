@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[4094],{4986:l=>{l.exports=JSON.parse('{"label":"HECS","permalink":"/blog/blog/tags/hecs","allTagsPath":"/blog/blog/tags","count":1,"unlisted":false}')}}]);

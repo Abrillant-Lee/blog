@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[756],{7530:l=>{l.exports=JSON.parse('{"label":"\u81ea\u5f8b","permalink":"/blog/blog/tags/\u81ea\u5f8b","allTagsPath":"/blog/blog/tags","count":1,"unlisted":false}')}}]);

@@ -4,8 +4,8 @@
   <ShortName>意胜云途</ShortName>
   <Description>Search 意胜云途</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://abrillant-lee.github.io/img/nan.ico</Image>
-  <Url type="text/html" method="get" template="https://abrillant-lee.github.io/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://abrillant-lee.github.io/opensearch.xml" />
-  <moz:SearchForm>https://abrillant-lee.github.io/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://abrillant-lee.github.io/blog/img/nan.ico</Image>
+  <Url type="text/html" method="get" template="https://abrillant-lee.github.io/blog/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://abrillant-lee.github.io/blog/opensearch.xml" />
+  <moz:SearchForm>https://abrillant-lee.github.io/blog/</moz:SearchForm>
 </OpenSearchDescription>
