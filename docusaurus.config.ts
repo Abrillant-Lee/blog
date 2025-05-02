@@ -9,11 +9,11 @@ const beian = '豫ICP备2024067790号-1'
 const config: Config = {
   title: '意胜云途',
   // url: 'https://abrillantlee.top',
-  url: 'https://abrillantlee.github.io',
+  url: 'https://abrillant-lee.github.io',
   baseUrl: '/',
   favicon: 'img/nan.ico',
-  organizationName: 'Abrillant-Lee',
   projectName: 'blog',
+  organizationName: 'Abrillant-Lee',
   onBrokenLinks: 'ignore',
   customFields: {
     bio: '道阻且长，行则将至',
