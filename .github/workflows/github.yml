@@ -1,6 +1,9 @@
 name: 打包Docusaurus项目
 
-on: push # 当有内容push到仓库时触发
+on:
+    push: # 当有内容push到仓库时触发
+      branches:
+      - main
 
 # 权限配置
 permissions:
