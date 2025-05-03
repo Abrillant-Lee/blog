@@ -1,6 +1,6 @@
 ﻿---
 slug: nan_Fedora
-title: Fedora系统开发与使用经验总结
+title: Fedora 42
 date: 2025-05-03
 authors: nan
 tags:
