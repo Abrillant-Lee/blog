@@ -10,7 +10,7 @@
         <language>en</language>
         <copyright>Copyright © 2025 nan Built with Docusaurus.&lt;p&gt;&lt;a href="http://beian.miit.gov.cn/" class="footer_lin"&gt;豫ICP备2024067790号-1&lt;/a&gt;&lt;/p&gt;</copyright>
         <item>
-            <title><![CDATA[Fedora系统开发与使用经验总结]]></title>
+            <title><![CDATA[Fedora 42]]></title>
             <link>https://abrillant-lee.github.io/blog/en/blog/nan_Fedora</link>
             <guid>https://abrillant-lee.github.io/blog/en/blog/nan_Fedora</guid>
             <pubDate>Sat, 03 May 2025 00:00:00 GMT</pubDate>
@@ -165,7 +165,7 @@ Fedora 官方不内置闭源驱动包，需要先启用 RPM Fusion 的 free 和 
 <li>双核 Cortex-A7，主频 900M Hz</li>
 <li>集成新一代 ISP，高性能 NNIE 引擎，AI 处理能力 1.0Tops</li>
 </ul>
-<h3 class="anchor anchorWithHideOnScrollNavbar_o5qK" id="注嵌入式-ai-计��算机视觉应用方向研究生组">注：嵌入式 AI 计算机视觉应用方向（研究生组）<a href="https://abrillant-lee.github.io/blog/en/blog/Hi3561#%E6%B3%A8%E5%B5%8C%E5%85%A5%E5%BC%8F-ai-%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89%E5%BA%94%E7%94%A8%E6%96%B9%E5%90%91%E7%A0%94%E7%A9%B6%E7%94%9F%E7%BB%84" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h3>
+<h3 class="anchor anchorWithHideOnScrollNavbar_o5qK" id="注嵌入式-ai-计算机视觉应用方向研究��生组">注：嵌入式 AI 计算机视觉应用方向（研究生组）<a href="https://abrillant-lee.github.io/blog/en/blog/Hi3561#%E6%B3%A8%E5%B5%8C%E5%85%A5%E5%BC%8F-ai-%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89%E5%BA%94%E7%94%A8%E6%96%B9%E5%90%91%E7%A0%94%E7%A9%B6%E7%94%9F%E7%BB%84" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h3>
 <ol>
 <li>本选题参赛作品的 AI 视觉处理芯片必须使用 Hi3516DV300，如有外设控制需 求，必须采用 Hi3861V100 做主控芯片，且操作系统必须使用海思提供的 OpenHarmony 版本，并鼓励参赛队伍选用 dToF 模组配合该选题使用。在套件功能 不能满足的情况时可使用其它配件作为补充。</li>
 <li>本选题方向重点考察参赛选手的嵌入式 AI 技术开发能力。除 AI 计算机视觉技 术外，还涉及音视频编解码、Wi-Fi 联接与应用、嵌入式系统控制等技术。</li>

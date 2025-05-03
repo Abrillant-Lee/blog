@@ -9,7 +9,7 @@
     <icon>https://abrillant-lee.github.io/blog/img/nan.ico</icon>
     <rights>Copyright © 2025 nan Built with Docusaurus.&lt;p&gt;&lt;a href="http://beian.miit.gov.cn/" class="footer_lin"&gt;豫ICP备2024067790号-1&lt;/a&gt;&lt;/p&gt;</rights>
     <entry>
-        <title type="html"><![CDATA[Fedora系统开发与使用经验总结]]></title>
+        <title type="html"><![CDATA[Fedora 42]]></title>
         <id>https://abrillant-lee.github.io/blog/blog/nan_Fedora</id>
         <link href="https://abrillant-lee.github.io/blog/blog/nan_Fedora"/>
         <updated>2025-05-03T00:00:00.000Z</updated>
@@ -106,7 +106,7 @@ Fedora 官方不内置闭源驱动包，需要先启用 RPM Fusion 的 free 和 
 <p>7.年度优秀学生评选</p>
 </li>
 </ul>
-<h4 class="anchor anchorWithHideOnScrollNavbar_o5qK" id="3导师">3.导师<a href="https://abrillant-lee.github.io/blog/blog/summer-ospp#3%E5%AF%BC%E5%B8%88" class="hash-link" aria-label="3.导师的直接链接" title="3.导师的直接链接">​</a></h4>
+<h4 class="anchor anchorWithHideOnScrollNavbar_o5qK" id="3导师">3.导师<a href="https://abrillant-lee.github.io/blog/blog/summer-ospp#3%E5%AF%BC%E5%B8%88" class="hash-link" aria-label="3.�导师的直接链接" title="3.导师的直接链接">​</a></h4>
 <p><strong>项目导师</strong>由<strong>社区内部推荐产生</strong>，社区联系人在系统添加导师信息时，系统将向导师发送邀请邮件，导师可点击邮件中的链接登录系统进行身份验证。</p>
 <p><strong>导师职责：</strong></p>
 <ol>
@@ -283,7 +283,7 @@ Fedora 官方不内置闭源驱动包，需要先启用 RPM Fusion 的 free 和 
 <a href="http://www.orangepi.cn/html/hardWare/computerAndMicrocontrollers/service-and-support/Orange-Pi-AIpro.html" target="_blank" rel="noopener noreferrer">Orange Pi - Orangepi官方资料</a></p>
 <p>然后，烧录镜像到TF卡中，注意：拨码开关BOOT1和2处于右设备状态，对应启动设备是TF卡；使用官方资料提供的<code>Linux镜像烧录工具-balenEther</code>进行，烧录、校验镜像各12min(不同读卡器速度不同)；可能会出现一个问题：<strong>校验失败导致最后烧录失败</strong>，不过我这边试了之后不影响，sd卡插上香橙派仍然可以使用。</p>
 <p>镜像烧录完成之后，插入香橙派然后电源type-c插上启动就可以，外接示屏、键盘、鼠标（使用三模键盘，可实现个人PC和香橙派自由切换😁）</p>
-<h3 class="anchor anchorWithHideOnScrollNavbar_o5qK" id="2登录香橙派linux系统">2.登录香橙派Linux系统<a href="https://abrillant-lee.github.io/blog/blog/Orange%20Pi%20AIpro#2%E7%99%BB%E5%BD%95%E9%A6%99%E6%A9%99%E6%B4%BElinux%E7%B3%BB%E7%BB%9F" class="hash-link" aria-label="2.登录香橙派Linux系统的直接链接" title="2.登录香橙派Linux系统的直接链接">​</a></h3>
+<h3 class="anchor anchorWithHideOnScrollNavbar_o5qK" id="2登录香橙派linux系统">2.登录香橙派Linux系统<a href="https://abrillant-lee.github.io/blog/blog/Orange%20Pi%20AIpro#2%E7%99%BB%E5%BD%95%E9%A6%99%E6%A9%99%E6%B4%BElinux%E7%B3%BB%E7%BB%9F" class="hash-link" aria-label="2.登录香橙派Linux系统��的直接链接" title="2.登录香橙派Linux系统的直接链接">​</a></h3>
 <ol>
 <li>如果开发板连接了网线，可以通过 ssh 远程登录 Linux 系统。</li>
 <li>如果开发板连接好了调试串口，可以使用串口终端登录Linux 系统。</li>
@@ -479,7 +479,7 @@ nushell config file at: <code>C:\Users\nan\AppData\Roaming\nushell\config.nu</co
 <p>（3）选用加密技术（加密算法、哈希函数和数字签名等）对企业数据进行加密，确保区块链中数据的安全和隐私。</p>
 <p>（4）区块链节点数不少于3个，合理设计区块大小，使得每轮上链存证确认完成的时间尽可能短。</p>
 <p>（5）界面设计美观，具有一定的可操作性，用户使用方便，鲁棒性强，没有功能错误。</p>
-<h2 class="anchor anchorWithHideOnScrollNavbar_o5qK" id="资源列表">资源列表<a href="https://abrillant-lee.github.io/blog/blog/blockchain#%E8%B5%84%E6%BA%90%E5%88%97%E8%A1%A8" class="hash-link" aria-label="资源列表的直接链接" title="资源列表的直接链接">​</a></h2>
+<h2 class="anchor anchorWithHideOnScrollNavbar_o5qK" id="资源列表">资源列表<a href="https://abrillant-lee.github.io/blog/blog/blockchain#%E8%B5%84%E6%BA%90%E5%88%97%E8%A1%A8" class="hash-link" aria-label="资源列�表的直接链接" title="资源列表的直接链接">​</a></h2>
 <ul>
 <li><a href="https://ethereum.org/zh/developers/docs/intro-to-ethereum/" target="_blank" rel="noopener noreferrer">以太坊开发文档</a></li>
 <li><a href="https://andersbrownworth.com/blockchain/" target="_blank" rel="noopener noreferrer">Blockchain Demo</a></li>
