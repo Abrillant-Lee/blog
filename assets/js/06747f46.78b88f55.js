@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[553],{3949:l=>{l.exports=JSON.parse('{"label":"Fedora","permalink":"/blog/blog/tags/fedora","allTagsPath":"/blog/blog/tags","count":1,"unlisted":false}')}}]);

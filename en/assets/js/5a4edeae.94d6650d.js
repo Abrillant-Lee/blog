@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[1155],{9947:l=>{l.exports=JSON.parse('{"label":"10\u5206\u949f\u6f14\u793a\u90e8\u7f72\u7f51\u7ad9\u5168\u8fc7\u7a0bLinux","permalink":"/blog/en/blog/tags/10-\u5206\u949f\u6f14\u793a\u90e8\u7f72\u7f51\u7ad9\u5168\u8fc7\u7a0b-linux","allTagsPath":"/blog/en/blog/tags","count":1,"unlisted":false}')}}]);
