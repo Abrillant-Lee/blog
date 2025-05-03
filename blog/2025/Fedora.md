@@ -12,7 +12,7 @@ keywords:
   - Linux
   - 开发环境
 description: Fedora系统的日常开发与运维经验总结
-image: /img/blog/Fedora.png
+image: https://abrillant-Lee.github.io/fedora/Fedora-nan1.jpg
 ---
 
 ## 前言
