@@ -176,7 +176,40 @@ lspci -k | grep -A2 -E "(VGA|3D)"
 
 若看到 `nvidia` 而非 `nouveau`，说明官方驱动已生效。
 
+
+
+## 切换工作区
+
+需求：使用键盘切换工作区，而且更顺手、靠近手指
+
+2. Vim 风格 H J K L 键
+
+我习惯了键盘不离手，模拟 Vim 的 H J K L：
+
+win  + H → 切换到左边工作区
+
+win + L → 切换到右边工作区
+
+ctrl + win + H → 应用切换到左边工作区
+
+ctrl + win + L → 应用切换到右边工作区
+
 ---
+
+## CAPS LOCK 键
+
+安装并打开 GNOME Tweaks（调整工具）
+
+在 键盘与鼠标 → 额外布局选项 → Caps Lock 键行为 中，选一个你喜欢的映射（如 “Caps Lock 当作 ESC”）
+
+
+## B station
+
+```bash
+sudo dnf install python3-pip    # 如果还没装 pip
+pip3 install --user you-get
+you-get "https://www.bilibili.com/video/BV1Be41117fv"
+```
 
 > 本文内容会持续更新，欢迎收藏备用。
 
